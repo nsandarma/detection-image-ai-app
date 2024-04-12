@@ -17,7 +17,7 @@ I built this project to develop an image classification system that can distingu
 ```url
 https://www.kaggle.com/datasets/cashbowman/ai-generated-images-vs-real-images
 ```
-The dataset I used consists of two classes: AI-generated and real. This dataset is available in separate folder formats for each class. To maintain class balance, I collected a similar number of datasets for both classes.
+The dataset I used consists of two classes: AI-generated and real. This dataset is available in separate folder formats for each class. To maintain class balance, I collected a similar number of datasets for both classes. The image data in the dataset has various channels, ranging from 4 channels, 3 channels, to even 1 channel, also known as grayscale images, I did a little *data engineering* to solve the problem.
 
 ## Pre-trained Model
 I used a pre-trained ResNet model on the ImageNet dataset. This model is available in the PyTorch library.
