@@ -1,7 +1,5 @@
 import streamlit as st
-import os
-from PIL import Image
-from preprocess import predict,preprocess_image
+from preprocess import predict
 
 def main():
     st.title("Deteksi Gambar AI")
